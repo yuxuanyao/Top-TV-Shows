@@ -1,0 +1,71 @@
+/*Disables horizontal scrolling*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/*Sticky Navbar*/
+  .affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+
+/*custom scrollbar*/
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.7); 
+}
+
+/*link styling*/
+a {
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    line-height: 1em;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px;
+}
+/*logo styling*/
+.navbrand{
+    font-size: 35px;
+    color: dodgerblue
+}
+
+/*background*/
+.bg {
+    position: relative;    
+}
+.wrapper{
+    text-align: center; 
+    padding: 0px;
+}
+/*button styling*/
+.button{
+    font-family: 'Indie Flower', cursive;
+    padding: 20px, 30px;
+    font-size: 50px;
+    line-height: 20px;
+    border-radius: 10px;
+    color:white;
+    background-color:black;
+    display: inline-block;
+    position:absolute;
+    top:50%;
+    left:42%
+}
+

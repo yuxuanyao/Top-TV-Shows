@@ -1,0 +1,161 @@
+/*Disables horizontal scrolling*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color:whitesmoke;
+    color: black;
+    padding: 16px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 800px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align:left;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+    background-color: darkgray;
+    font-size: 16px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color:darkgray;
+}
+
+
+/*Sticky Navbar*/
+  .affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+
+/*custom scrollbar*/
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.7); 
+}
+
+
+/*link styling*/
+a {
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    line-height: 1em;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px;
+}
+/*logo styling*/
+#topy{
+    font-size: 35px;
+    color: dodgerblue;
+}
+
+/*background*/
+.bg {
+    position: relative;    
+}
+
+.title{
+    text-align: center;
+    color:darkslategrey;
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+.navbar{margin-bottom: 0;}
+
+#tvanimecover{
+    border-radius: 10px;
+}
+
+.animetitle{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+
+.embed-responsive embed-responsive-16by9{
+    padding: 10px
+}
+.pvtitle{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    padding: 5px;
+    color:black; 
+}
+
+.animebutton{
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    padding: 5px;
+    color:black;
+}
+
+.factcontent{
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.lastfact{
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 15px;
+}
